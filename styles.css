@@ -1,14 +1,52 @@
 /* css reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 40px;
+  background-color: gray;
+  font-family: "Courier New", Courier, monospace, Arial, Helvetica, sans-serif;
+  padding: 40px;
+  color: white;
 }
 
 blockquote {
-    margin: 0 0 0 30px;
+  font-style: italic;
+  line-height: 50px;
+  text-indent: 40px;
 }
-
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+}
+h1:hover {
+  text-shadow: 3px 3px 60px blue;
+}
+/* THIS IS THE H3 STYLE */
+h3 {
+  text-align: center;
+  font-size: 2.55em;
+  letter-spacing: -2px;
+  word-spacing: 15px;
+}
+/* LINK  */
+a {
+  color: lawngreen;
+  text-decoration: none;
+}
+text-decoration a {
+  text-transform: capitalize;
+}
+strong {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+span {
+  text-decoration: line-through;
+}
+em {
+  text-transform: capitalize;
+}
